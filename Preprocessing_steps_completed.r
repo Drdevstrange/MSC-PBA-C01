@@ -1,5 +1,5 @@
 ############################################################
-# PBA Group Coursework – Member 1 Section
+# PBA Group Coursework – Member 1(utsav) Section
 
 ############################################################
 
@@ -182,10 +182,10 @@ write.csv(ckd, "kidney_clean.csv", row.names = FALSE)
 
 cat("\nSuccess! 'kidney_clean.csv' has been saved to your folder.\n")
 
-# END OF MEMBER 2
+# END OF MEMBER 2(Ashwin)
 
 ############################################################
-# MEMBER 3 – MISSING VALUE TREATMENT (IMPUTATION)
+# MEMBER 3(Richa) – MISSING VALUE TREATMENT (IMPUTATION)
 ############################################################
 
 # The previous output dataset from step 2 should be in the same folder as this script.
@@ -256,7 +256,7 @@ cat("\nSuccess! 'kidney_clean_step3.csv' has been saved to your folder.\n")
 ############################################################
 
 ############################################################
-# MEMBER 4 – EXPLORATORY DATA ANALYSIS (EDA)
+# MEMBER 4(prajwal) – EXPLORATORY DATA ANALYSIS (EDA)
 ############################################################
 
 # Load required libraries (if not already loaded at top of script)
@@ -442,7 +442,7 @@ plot_cat_by_class(ckd, "pe")
 
 
 ############################################################
-# MEMBER 5 – CORRELATION & FEATURE INSIGHTS
+# MEMBER 5(Dev) – CORRELATION & FEATURE INSIGHTS
 ############################################################
 
 install.packages("corrplot")
@@ -497,7 +497,7 @@ print(sort(cor_with_target, decreasing = TRUE))
 ############################################################
 
 ############################################################
-# MEMBER 6 – TRAIN/TEST SPLIT & EXPORT (NO TIDYVERSE NEEDED)
+# MEMBER 6(diwakaran) – TRAIN/TEST SPLIT & EXPORT (NO TIDYVERSE NEEDED)
 ############################################################
 
 rm(list = ls())  # start clean
